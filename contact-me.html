@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <style>
+        label {
+                display: block;
+                margin-bottom: 3px;
+                margin-top: 10px;
+            }
+            input[type="submit"] {
+                border: 3px solid black;
+                font-size: 22px;
+            }
+            input[type="submit"]:hover {
+                color: white;
+                background-color: black;
+                border: 3px solid rgb(179, 168, 168);
+                font-size: 22px;
+            }
+        </style>
+</head>
+
+<body>
+    <h1>Contact Details</h1>
+    <p>Email: <a href="mailto:amirkhanjadoon@hotmail.com">amirkhanjadoon@hotmail.com</a></p>
+    <p>Social Account:<a href="https://web.facebook.com/AMIR.KHAN.BABA"> Facebook</a></p>
+    <hr>
+    <form action="mailto:amirkhanjadoon@hotmail.com" method="post" enctype="text/plain">
+        <label for="get-name">Your Name:</label>
+        <input type="text" name="Name" value="">
+        <label for="get-email">Your Email:</label>
+        <input type="email" name="Email" value="">
+        <label for="get-message">Your Message:</label>
+        <textarea name="MessageFromSender " id="" cols="30" rows="10"></textarea>
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
